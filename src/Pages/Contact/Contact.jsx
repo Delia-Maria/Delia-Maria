@@ -11,7 +11,7 @@ const Contact = () => {
         <div className="page-contact-grid">
             <div className="contact-grid">
                 <div className="heading-contact">
-                    <h1>CONTACTs</h1>
+                    <h1>CONTACT</h1>
                     <p> str. Republicii, Cluj-Napoca, RO</p>
                     <p> delia_humeniuc@yahoo.com</p>
                     <p> 0747847207</p>
