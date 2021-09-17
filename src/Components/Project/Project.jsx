@@ -1,4 +1,7 @@
 import React from "react";
+import descriptionImage from '../../images/mac.jpeg';
+import projectImage1 from '../../images/shop.png';
+import projectImage2 from '../../images/todo.webp';
 import './Project.css';
 
 const Project = () => {
@@ -26,7 +29,7 @@ const Project = () => {
                         <a href="https://github.com/Delia-Maria/SIIT_Delia_Danut/tree/main/15_week_homework/react"> Check out my project on Github!</a>
                     </div>
                     <div className="project-image">
-                        <img src="src/images/shop.png" width="250" height="250" ></img>
+                        <img src={projectImage1} width="250" height="250" ></img>
                     </div>
                 </div>
                 <div className="toDo-app">
@@ -37,7 +40,7 @@ const Project = () => {
                         <a href="https://github.com/Delia-Maria/SIIT_Delia_Danut/tree/main/15_week_homework/react"> Check out my project on Github!</a>
                     </div>
                     <div className="project-image">
-                        <img src="src/images/todo.webp" width="250" height="200"></img>
+                        <img src={projectImage2} width="250" height="200"></img>
                     </div>
                 </div>
             </div>
