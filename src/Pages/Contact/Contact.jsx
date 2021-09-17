@@ -11,15 +11,13 @@ const Contact = () => {
         <div className="page-contact-grid">
             <div className="contact-grid">
                 <div className="heading-contact">
-                    <h1>CONTACT</h1>
+                    <h1>CONTACTs</h1>
                     <p> str. Republicii, Cluj-Napoca, RO</p>
                     <p> delia_humeniuc@yahoo.com</p>
                     <p> 0747847207</p>
                     <a href="https://www.linkedin.com/in/delia-maria-dănuț-humeniuc-764044135">
                         <img className="linkdln-icon" src={linkedlnImage}></img>
                     </a>
-
-
                 </div>
 
                 <div>
