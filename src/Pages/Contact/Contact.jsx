@@ -1,6 +1,7 @@
 import React from 'react';
 import './Contact.css';
 import profileImage from '../../images/me.jpg';
+import linkedlnImage from '../../images/lnkdln.png';
 import { DisplayMapClass } from '../../Components/DisplayMapClass/DisplayMapClass';
 
 
@@ -15,7 +16,7 @@ const Contact = () => {
                     <p> delia_humeniuc@yahoo.com</p>
                     <p> 0747847207</p>
                     <a href="https://www.linkedin.com/in/delia-maria-dănuț-humeniuc-764044135">
-                        <img className="linkdln-icon" src="src/images/lnkdln.png"></img>
+                        <img className="linkdln-icon" src={linkedlnImage}></img>
                     </a>
 
 
