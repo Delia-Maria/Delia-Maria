@@ -1,0 +1,15 @@
+.footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: unset;
+    padding: 35px;
+}
+
+.hr-footer {
+    margin-bottom: unset;
+    margin-top: 1.5cm;
+    border: none;
+    height: 1px;
+    background-color: rgb(94, 93, 93);
+}

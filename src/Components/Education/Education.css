@@ -1,0 +1,20 @@
+.education-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 50px;
+}
+
+.education1,
+.education2 {
+    text-align: center;
+    background-color: black;
+    margin: 5px;
+    border: none;
+    padding: 5px;
+}
+
+@media (max-width: 480px) {
+    .education-grid {
+        grid-template-columns: 100%;
+    }
+}
